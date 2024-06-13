@@ -24,7 +24,7 @@ export const Counter = () => {
   };
 
   return (
-    <div className={s.counter_wrapper}>
+    <div className={s.counter__wrapper}>
       <div className={s.maintitle__wrapper}>
         <h2>Counter</h2>
       </div>
