@@ -25,7 +25,8 @@ type RootStateType = ReturnType<typeof rootReducer>;
 const selector = (state: RootStateType) => state.users.items;
 
 const Users = () => {
-  let userList = useSelector(selector);
+
+let userList = useSelector(selector);
 
   const users = userList;
   return (
